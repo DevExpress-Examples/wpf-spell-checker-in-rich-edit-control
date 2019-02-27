@@ -1,5 +1,8 @@
-﻿Imports DevExpress.Xpf.SpellChecker
+﻿Imports DevExpress.Xpf.RichEdit
+Imports DevExpress.Xpf.SpellChecker
+Imports DevExpress.XtraRichEdit.SpellChecker
 Imports DevExpress.XtraSpellChecker
+Imports DevExpress.XtraSpellChecker.Native
 Imports System.Globalization
 Imports System.IO
 Imports System.Reflection
@@ -14,6 +17,7 @@ Namespace RichEditSpellChecker_Example
 
 		Private ReadOnly _spellChecker As SpellChecker
 		Public Sub New()
+			SpellCheckTextControllersManager.Default.RegisterClass(GetType(RichEditControl), GetType(RichEditSpellCheckController))
 			InitializeComponent()
 			_spellChecker = New SpellChecker()
 			InitSpellChecker()
