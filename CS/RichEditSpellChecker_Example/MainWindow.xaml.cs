@@ -1,5 +1,8 @@
-﻿using DevExpress.Xpf.SpellChecker;
+﻿using DevExpress.Xpf.RichEdit;
+using DevExpress.Xpf.SpellChecker;
+using DevExpress.XtraRichEdit.SpellChecker;
 using DevExpress.XtraSpellChecker;
+using DevExpress.XtraSpellChecker.Native;
 using System.Globalization;
 using System.IO;
 using System.Reflection;
@@ -12,6 +15,7 @@ namespace RichEditSpellChecker_Example {
     public partial class MainWindow : Window {
         private readonly SpellChecker _spellChecker;
         public MainWindow() {
+            SpellCheckTextControllersManager.Default.RegisterClass(typeof(RichEditControl), typeof(RichEditSpellCheckController));
             InitializeComponent();
             _spellChecker = new SpellChecker();
             InitSpellChecker();
