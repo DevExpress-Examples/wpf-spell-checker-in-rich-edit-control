@@ -12,25 +12,8 @@
     mc:Ignorable="d"
     Title="MainWindow">
     <Grid>
-        <!--region #RichEditSpellCheckerBehavior-->
-        <dxre:RichEditControl DocumentSource="An ideal dictionarie shouldbe comprised of all the the words in a given langauge">
-            <dxmvvm:Interaction.Behaviors>
-                <dxspch:RichEditSpellChecker CheckAsYouType="True"
-                                             Culture="en-US"
-                                             IgnoreMixedCaseWords="False"
-                                             IgnoreUri="False"
-                                             SpellingFormType="Word">
-                    <dxspch:RichEditSpellChecker.Dictionaries>
-                        <dxspch:HunspellDictionary Culture="en-US" 
-                                                   DictionaryUri="pack://application:,,,/Dictionaries/en_US.dic"
-                                                   GrammarUri="pack://application:,,,/Dictionaries/en_US.aff"/>
-                        <dxspch:SpellCheckerCustomDictionary Culture="en-US"
-                                                             DictionaryUri="Dictionaries/CustomEnglish.dic"
-                                                             AlphabetUri="Dictionaries/EnglishAlphabet.txt"/>
-                    </dxspch:RichEditSpellChecker.Dictionaries>
-                </dxspch:RichEditSpellChecker>
-            </dxmvvm:Interaction.Behaviors>
+        <dxre:RichEditControl Name="richTextEdit" Text="An ideal dictionarie shouldbe comprised of all the the words in a given langauge">
         </dxre:RichEditControl>
-        <!--endregion #RichEditSpellCheckerBehavior-->
+
     </Grid>
 </Window>
