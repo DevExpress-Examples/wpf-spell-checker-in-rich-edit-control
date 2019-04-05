@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/RichEditSpellChecker_Example/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/RichEditSpellChecker_Example/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/RichEditSpellChecker_Example/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/RichEditSpellChecker_Example/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/RichEditSpellChecker_Example/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/RichEditSpellChecker_Example/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to check spelling within the Rich Edit Control
 
