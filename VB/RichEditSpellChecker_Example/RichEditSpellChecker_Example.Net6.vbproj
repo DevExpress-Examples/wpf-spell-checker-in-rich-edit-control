@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
     <RootNamespace></RootNamespace>
     <AssemblyName>RichEditSpellChecker_Example</AssemblyName>
@@ -33,21 +33,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Data" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Data.Desktop" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Mvvm" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Office.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Pdf.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Printing.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.SpellChecker.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Docking" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Office" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Printing" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Ribbon" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.RichEdit" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.SpellChecker" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Data" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Data.Desktop" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Mvvm" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Office.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Pdf.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.SpellChecker.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Docking" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Office" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Printing" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Ribbon" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.RichEdit" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.SpellChecker" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="26.1.*-*" />
   </ItemGroup>
 </Project>
